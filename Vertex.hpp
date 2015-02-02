@@ -10,6 +10,12 @@ class Vertex{
 		int x;
 		int y;
 		vector<Path*> orderedPaths;
+		Vertex(){
+		//cout << "Vertex created"<< endl;
+		}
+		~Vertex(){
+		//cout<<"Kill Vertex"<<endl;
+		}
 };
 
 #endif

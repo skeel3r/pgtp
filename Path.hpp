@@ -4,8 +4,14 @@
 class Path{
 	public:
 		Node* pathParent;
-		double var;
-		double mu;
+		double sumVar;
+		double sumMu;
+		Path(){
+		//cout << "Path created"<< endl;
+		}
+		~Path(){
+		//cout<<"Kill Path"<<endl;
+		}
 };
 
 #endif
